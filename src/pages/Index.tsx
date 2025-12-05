@@ -50,7 +50,7 @@ const Index = () => {
           </div>
           <Button variant="outline" size="sm">
             <Icon name="User" size={16} className="mr-2" />
-            Профиль
+            Перерождение
           </Button>
         </div>
       </nav>
