@@ -40,10 +40,12 @@ const Index = () => {
     <div className="min-h-screen bg-gradient-to-b from-background via-accent/20 to-background">
       <nav className="sticky top-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
-              <Icon name="Sparkles" className="text-primary" size={20} />
-            </div>
+          <div className="flex items-center gap-3">
+            <img 
+              src="https://cdn.poehali.dev/files/1b5c3d21-f969-4b21-85c4-0a1d0b592e10.jpg" 
+              alt="Дыши логотип" 
+              className="w-10 h-10 object-contain"
+            />
             <h1 className="text-xl font-bold text-foreground">Дыши</h1>
           </div>
           <Button variant="outline" size="sm">
