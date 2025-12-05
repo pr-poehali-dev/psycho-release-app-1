@@ -46,7 +46,7 @@ const Index = () => {
               alt="Дыши логотип" 
               className="w-10 h-10 object-contain"
             />
-            <h1 className="text-xl font-bold text-foreground">Дыши</h1>
+            <h1 className="text-xl font-bold text-foreground">Перерождение</h1>
           </div>
           <Button variant="outline" size="sm">
             <Icon name="User" size={16} className="mr-2" />
